@@ -1,0 +1,44 @@
+.container {
+  background-color: black;
+  display: grid;
+  width: 70vh;
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.first {
+  background-color: #fffdd0;
+  grid-column: 1 / span 5;
+}
+.second {
+  background-color: #fffdd0;
+  grid-column: span 7;
+  height: 30vh;
+}
+.thre {
+  background-color: red;
+  grid-column: 1 / span 5;
+  grid-row: span 23;
+}
+.four {
+  background-color: #fffdd0;
+  grid-row: span 21;
+  grid-column: span 5;
+}
+.five {
+  background-color: blue;
+  grid-row: span 3;
+  grid-column: span 2;
+}
+.six {
+  background-color: #fffdd0;
+  grid-row: span 20;
+  grid-column: span 2;
+}
+.seven {
+  background-color: #fffdd0;
+  grid-column: span 5;
+  grid-row: span 2;
+  height: 9px;
+}
